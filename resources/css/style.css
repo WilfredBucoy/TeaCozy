@@ -1,0 +1,197 @@
+/* CSS Document */
+#container {
+	width: 1200px;
+	left: 0px;
+	align-content:flex-start;
+  top: -400px;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid white;
+	background-color: black;
+	flex-wrap: wrap;
+	align-self: flex-start;
+	left: 0px;
+	top: 0px;
+}
+
+#logo {
+	margin-left: 10px;
+	height: 50px;
+	width: 157.141px;
+	flex-grow: 1;
+}
+
+#navigation {
+	display: inline;
+	justify-content: space-around;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+li {
+	float: left;
+	padding: 20px 10px;
+}
+
+li a {
+	display: inline;
+	color: seashell;
+  text-decoration: underline;
+  font-family: "helvetica";
+}
+
+#missionHeader {
+  left: 0px;
+  top: 390px;
+	position:relative;
+	align-content: center;
+	vertical-align: middle;
+	z-index: 2;
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	color: seashell;
+	text-align: center;
+	width: 1200px;
+}
+
+#ourMission {
+	display: block;
+  left: 0px;
+	vertical-align: baseline;
+	position: relative;
+	color: seashell;
+	text-align: center;
+  top: 5px;
+}
+
+#mission {
+	background-image: url(../img-mission-background.jpg);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+  position: relative;
+	width: 100%;
+	height: 700px;
+	width: 1200px;
+  left: 0px;
+}
+
+#cozyTea {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	align-content: space-between;
+	margin-top: 50px;
+}
+
+#cozy1 {
+	display: block;
+	vertical-align: middle;
+	align-content: center;
+	padding: 5px;
+}
+
+.cozyTea {
+	height: 260px;
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+  
+}
+
+h3 {
+  font-family: "helvetica";
+	font-weight: bold;
+  color:seashell;
+  text-align: center;
+}
+h2 {
+  font-family: "helvetica";
+	font-weight: bold;
+  color:seashell;
+  text-align: center;
+}
+
+#ourMission h2 {
+  font-family: "helvetica";
+  color:seashell;
+  text-align: center;
+}
+
+h4 {
+  font-family: "helvetica";
+  color:seashell;
+  text-align: center;
+  
+}
+
+p {
+  font-family: "helvetica";
+  color:seashell;
+  text-align: center;
+}
+
+#location {
+  display: flex;
+	background-image: url(../img-locations-background.jpg);
+  height: 500px;
+  position: relative;
+  margin-top: 10px;
+  vertical-align: middle;
+  align-content: center;
+  width: 1200px;
+  justify-content: center;
+}
+
+#locationBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+  width: 300px;
+  margin: 100px 20px;
+  background-color: black;
+  vertical-align: middle;
+  color: seashell;
+}
+
+#footer {
+	height: 200px;
+  text-align: center;
+}
+
+#footer h5 {
+  color: seashell;
+  
+  text-align: center;
+	font-family: "helvetica";
+}
+
+#footer a {
+	color: seashell;
+  text-decoration: underline;
+  text-align: center;
+	font-family: "helvetica";
+}
+
+#copyright p {
+  margin-left: 20px;
+	color: seashell;
+  text-align: left;
+	font-family: "helvetica";
+}
